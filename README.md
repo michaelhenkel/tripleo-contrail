@@ -6,7 +6,7 @@
 sudo yum -y update
 sudo yum install vim-enhanced git wget
 ```
-2.. Configure host repos (using tripleo.sh)    
+2.  Configure host repos (using tripleo.sh)    
 ```
 git clone https://github.com/openstack-infra/tripleo-ci.git
 tripleo-ci/scripts/tripleo.sh --repo-setup
